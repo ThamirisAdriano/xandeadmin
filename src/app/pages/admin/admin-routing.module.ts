@@ -8,7 +8,7 @@ const routes: Routes = [
     component: AdminComponent,
     children:[
       {
-        path: 'list-series',
+        path: 'list-birthday',
         loadChildren: () => import('./modules/list-birthday/list-birthday.module').then((module) => module.ListBirthdayModule)
       },
       {

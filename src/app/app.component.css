@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    background-color: #7f7f7f;
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+#menu-h li{
+    display: inline;
+   
+
+}
+
+#menu-h li a{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    
+}
+
+#menu-h li a:hover{
+   background-color: aqua;
+   transition: .3s;
+   color: black;
+    
+}

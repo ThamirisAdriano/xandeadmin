@@ -71,7 +71,7 @@ h1{
 .login-box .user-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #ff0043;
+    color: aqua;
     font-size: 12px;
 }
 
@@ -79,7 +79,7 @@ h1{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #ff0043;
+    color: aqua;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -109,7 +109,7 @@ login-box a:hover {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #ff0043);
+    background: linear-gradient(90deg, transparent, aqua);
     animation: btn-anim1 1s linear infinite;
 }
 
@@ -127,7 +127,7 @@ login-box a:hover {
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #ff0043);
+    background: linear-gradient(180deg, transparent, aqua);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s;
 }
@@ -146,7 +146,7 @@ login-box a:hover {
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #ff0043);
+    background: linear-gradient(270deg, transparent, aqua);
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s;
 }
@@ -165,7 +165,7 @@ login-box a:hover {
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #ff0043);
+    background: linear-gradient(360deg, transparent, aqua);
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s;
 }
